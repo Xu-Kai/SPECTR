@@ -1,4 +1,4 @@
-# SPECTR
+# ParSHREC
 
 We present a parallel error correction tool(XBLESS), which is designed to improve the throughput of DNA error correction for Illumina reads. Our design is based on the memory-efficient BLESS algorithm but is optimized towards AVX-512-based CPUs, Xeon Phi many-cores (both KNC and KNL), and heterogeneous compute clusters.
 
