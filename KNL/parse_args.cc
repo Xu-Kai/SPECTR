@@ -339,9 +339,9 @@ void C_arg::prepare_args(C_file_name& readname) {
       // stdout
       std::cout << std::endl;
       std::cout << "----------------------------------------------------------------------" << std::endl;
-      std::cout << "           BLESS: Bloom-filter based error correction tool" << std::endl;
+      std::cout << "           ParSHREC: Bloom-filter based error correction tool" << std::endl;
       std::cout << "----------------------------------------------------------------------" << std::endl;
-      std::cout << "CONTACT : Yun Heo (yunheo1@illinois.edu)" << std::endl;
+      std::cout << "CONTACT : Xu Kai (xukai16@foxmail.com)" << std::endl;
 //      std::cout << "VERSION: " VERSION << std::endl;
 //      std::cout << "DATE   : " DATE << std::endl;
       std::cout << "----------------------------------------------------------------------" << std::endl;
@@ -435,6 +435,6 @@ void C_arg::print_usage() {
    std::cout << "     bless -read in.fastq -prefix directory/prefix -kmerlength 31" << std::endl;
    std::cout << std::endl;
    std::cout << "4. CONTACT" << std::endl;
-   std::cout << "     Yun Heo (yunheo1@illinois.edu)" << std::endl;
+   std::cout << "     Xu Kai (xukai16@foxmail.com)" << std::endl;
    std::cout << std::endl;
 }
