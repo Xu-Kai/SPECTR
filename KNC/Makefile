@@ -12,8 +12,8 @@ parse_args.o MurmurHash3.o check_inputs.o\
  kmc/kmc_api/kmc_file.o kmc/kmc_api/kmer_api.o kmc/kmc_api/mmer.o count_solid_kmers.o generate_bloom_filter.o data_manager.o 
 
  
-parshrec-knc:$(OBJS)
-	$(ICC) $(OBJS) $(LDFLAGS) -o parshrec-knc
+spectr-knc:$(OBJS)
+	$(ICC) $(OBJS) $(LDFLAGS) -o spectr-knc
 	
 	
 main_mic.o: main_mic.cc
