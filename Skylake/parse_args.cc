@@ -339,7 +339,7 @@ void C_arg::prepare_args(C_file_name& readname) {
       // stdout
       std::cout << std::endl;
       std::cout << "----------------------------------------------------------------------" << std::endl;
-      std::cout << "           SPECTR: Bloom-filter based error correction tool" << std::endl;
+      std::cout << "           SPECTR: Scalable Parallel Short Read Error Correction" << std::endl;
       std::cout << "----------------------------------------------------------------------" << std::endl;
       std::cout << "CONTACT : Xu Kai (xukai16@mail.sdu.edu.cn)" << std::endl;
 //      std::cout << "VERSION: " VERSION << std::endl;
