@@ -339,7 +339,7 @@ void C_arg::prepare_args(C_file_name& readname) {
       // stdout
       std::cout << std::endl;
       std::cout << "----------------------------------------------------------------------" << std::endl;
-      std::cout << "           ParSHREC: Bloom-filter based error correction tool" << std::endl;
+      std::cout << "           SPECTR: Scalable Parallel Short Read Error Correction" << std::endl;
       std::cout << "----------------------------------------------------------------------" << std::endl;
       std::cout << "CONTACT : Xu Kai (xukai16@foxmail.com)" << std::endl;
 //      std::cout << "VERSION: " VERSION << std::endl;
@@ -385,7 +385,7 @@ void C_arg::prepare_args(C_file_name& readname) {
 void C_arg::print_usage() {
    std::cout << std::endl;
    std::cout << "----------------------------------------------------------------------" << std::endl;
-   std::cout << "           ParSHREC: Bloom-filter based error correction tool" << std::endl;
+   std::cout << "           SPECTR: Scalable Parallel Short Read Error Correction" << std::endl;
    std::cout << "----------------------------------------------------------------------" << std::endl;
 //   std::cout << "VERSION: " VERSION << std::endl;
 //   std::cout << "DATE   : " DATE << std::endl;
