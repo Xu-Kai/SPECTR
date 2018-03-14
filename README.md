@@ -19,7 +19,7 @@ do: make
 
 To run a test using SPECTR, simply do:
 
-$  ./spectr-cpu -max_mem 32 -prefix fixed -readlist ecc.list -kmerlength 31
+$  ./spectr-skylake -max_mem 32 -prefix fixed -readlist ecc.list -kmerlength 31
 
 The meaning of augments:
 
